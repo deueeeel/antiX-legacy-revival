@@ -117,19 +117,19 @@ ps aux --sort=-%mem | head -15
 
 **1. The problem — clock stuck in 2005 on every boot:**
 
-![BIOS showing date reset to 02/01/2005](photos/bios-date-reset.jpg)
+![BIOS showing date reset to 02/01/2005](photos/bios-date-reset.jpeg)
 
 **2. The installation — antiX bootloader on a 2005 machine:**
 
-![antiX bootloader screen](photos/antix-bootloader.jpg)
+![antiX bootloader screen](photos/antix-bootloader.jpeg)
 
 **3. The fix — syncing the hardware clock from terminal:**
 
-![Terminal showing hwclock --systohc fix](photos/terminal-date-fix.jpg)
+![Terminal showing hwclock --systohc fix](photos/terminal-date-fix.jpeg)
 
 **4. The result:**
 
-![Terminal showing Welcome back to life](photos/welcome-back-to-life.jpg)
+![Terminal showing Welcome back to life](photos/welcome-back-to-life.jpeg)
 
 ---
 
@@ -139,10 +139,10 @@ ps aux --sort=-%mem | head -15
 antiX-legacy-revival/
 ├── README.md
 ├── photos/
-│   ├── bios-date-reset.jpg
-│   ├── antix-bootloader.jpg
-│   ├── terminal-date-fix.jpg
-│   └── welcome-back-to-life.jpg
+│   ├── bios-date-reset.jpeg
+│   ├── antix-bootloader.jpeg
+│   ├── terminal-date-fix.jpeg
+│   └── welcome-back-to-life.jpeg
 └── scripts/
     ├── fix-clock.sh
     └── optimize-ram.sh
